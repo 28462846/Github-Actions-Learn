@@ -6,7 +6,7 @@ jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     env:
-    TERM: xterm-256color
+      TERM: xterm-256color
     steps:
       - name: echo a string
         run: echo "Hello World"
