@@ -5,6 +5,8 @@ on: [push, pull_request]
 jobs:
   run-shell-command:
     runs-on: ubuntu-latest
+    env:
+    TERM: xterm-256color
     steps:
       - name: eccccho a string
         run: echo "Hello World"
