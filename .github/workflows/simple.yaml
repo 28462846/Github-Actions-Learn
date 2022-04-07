@@ -8,7 +8,7 @@ jobs:
     env:
     TERM: xterm-256color
     steps:
-      - name: eccccho a string
+      - name: echo a string
         run: echo "Hello World"
       - name: multiline script
         run: |
